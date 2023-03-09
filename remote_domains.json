@@ -1,0 +1,32 @@
+[
+   {
+      "name":"dev.app_main.com",
+      "allowsInsecureHTTPLoads":true,
+      "description":"DEV environment for app testing"
+   },
+   {
+      "name":"dev.app_quicksearch.com",
+      "allowsInsecureHTTPLoads":true,
+      "description":"DEV environment for quick search testing"
+   },
+   {
+      "name":"dev.app_cached.com",
+      "allowsInsecureHTTPLoads":true,
+      "description":"DEV environment for cached data"
+   },
+   {
+      "name":"stage.app_main.com",
+      "allowsInsecureHTTPLoads":false,
+      "description":"STAGE environment for quick search testing"
+   },
+   {
+      "name":"stage.app_quicksearch.com",
+      "allowsInsecureHTTPLoads":false,
+      "description":"STAGE environment for quick search testing"
+   },
+   {
+      "name":"stage.app_cached.com",
+      "allowsInsecureHTTPLoads":false,
+      "description":"STAGE environment for cached data"
+   }
+]
