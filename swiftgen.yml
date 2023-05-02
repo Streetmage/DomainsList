@@ -1,0 +1,7 @@
+strings:
+  inputs: DomainsList/Resources/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: DomainsList/Generated/Localizable.swift
+      params:
+        enumName: Localizable
